@@ -148,7 +148,7 @@ Cursor.prototype.handleFusing = function () {
       fuzeTime: lastCollisionTime
     }
   })
-};
+}
 
 Cursor.prototype.handleFuseEnd = function () {
   const {fuzeTarget} = this.state
